@@ -1,0 +1,59 @@
+<header class="header">
+  <div class="header-container">
+    <nav class="left-options">
+      <a href="#option1">Payme</a>
+      <a href="#option2">Home</a>
+      <a href="#option3">About</a>
+      <a href="#option4">Testimonials</a>
+      <a href="#option5">Contact</a>
+    </nav>
+    <nav class="right-options">
+      <a href="#option6">Sign in</a>
+      <button class="sign-up-button">Sign up</button>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+  <!-- Apresentation -->
+  <section class="section-home">
+
+    <div class="home-container">
+      <div class="text-home">
+        <div class="title-home">
+          Providing<br>
+          Best<br>
+          <span>WEB Services</span>
+
+        </div>
+        <div class="subtitle-home">
+          Letter of on become he tended active enable to.
+          Vicinity relation sensible sociable surprise screened no up as.
+        </div>
+        <div class="buttons-home">
+          <button class="get-started-button">Get Started</button>
+          <button class="explore-button">Explore</button>
+
+        </div>
+
+      </div>
+
+      <div class="image-home">
+        <img src="../assets/imgs/woman-home.svg" alt="">
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="section-logos">
+
+    <div class="logos-container">
+      <div *ngFor="let src of srcLogos" class="logo-item">
+        <img src="../assets/imgs/{{src}}" alt="">
+      </div>
+    </div>
+
+  </section>
+</main>

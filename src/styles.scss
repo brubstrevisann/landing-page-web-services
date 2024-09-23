@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'GilroyThin';
+  src: url('./assets/fonts/Gilroy-Thin.ttf');
+}
+
+@font-face {
+  font-family: 'GilroyMedium';
+  src: url('./assets/fonts/Gilroy-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'GilroyExtraBold';
+  src: url('./assets/fonts/Gilroy-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'GilroySemiBold';
+  src: url('./assets/fonts/Gilroy-SemiBold.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
